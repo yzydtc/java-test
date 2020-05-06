@@ -1,3 +1,5 @@
+package com.yzy.mybatis.chart1;
+
 import java.sql.*;
 
 public class JDBC_Test {
