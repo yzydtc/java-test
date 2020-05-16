@@ -9,5 +9,9 @@
         <module name="java-test-mybatis" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java-test-mybatis-framework" target="1.8" />
+      <module name="java-test-spring" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
