@@ -6,8 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="java-test-spring" />
         <module name="java-test-mybatis" />
+        <module name="java-test-mybatis-framework" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java-test-mybatis-framework" target="1.8" />
+      <module name="java-test-spring" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

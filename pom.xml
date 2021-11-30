@@ -11,6 +11,8 @@
     <modules>
         <module>common/java-test-parent</module>
         <module>common/java-test-mybatis</module>
+        <module>common/java-test-mybatis-framework</module>
+        <module>common/java-test-spring</module>
     </modules>
 
 
